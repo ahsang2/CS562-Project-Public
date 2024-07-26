@@ -150,7 +150,7 @@ def run_experiments():
         
 def add_huggingface_token():
     print("Adding huggingface token...")
-    os.system('echo -n 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 > /root/.cache/huggingface/token')
+    os.system('echo -n REDACTED > /root/.cache/huggingface/token')
     
 if __name__ == "__main__":
     add_huggingface_token()
